@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Decimal2Binary</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Decimal to Binary Converter</h1>
+<div>
+    <label>Decimal Number<input type="number" id="decimal" placeholder="enter a number"></label>
+    <br><br>
+    <label>Binary Number<input type="text" id="ans"></label>
+    <br><br>
+    <button onclick="converter()">Convert</button>
+</div>
+<script>
+    function converter() {
+        let number = document.getElementById("decimal").value;
+            document.getElementById("ans").value=Number(number).toString(2);
+    }
+</script>
+</body>
+</html>

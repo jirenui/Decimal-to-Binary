@@ -1,0 +1,19 @@
+body{
+    background-color: navajowhite;
+}
+
+h1{
+    color:red;
+    text-align: center;
+}
+div{
+    background:linear-gradient(#3333cc,#ff99cc);
+    height:100px;
+    border: thick double;
+    text-align: center;
+    padding-bottom: 10px;
+    padding-top: 15px;
+    border-radius: 35px;
+    margin:auto;
+    width: 35%;
+}
